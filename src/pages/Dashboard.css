@@ -1,0 +1,59 @@
+body {
+  background: #f5f7fb;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-container {
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  background: #001f3f;
+  color: white;
+  height: 100vh;
+  padding-top: 30px;
+  position: fixed;
+}
+
+.sidebar h3 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.sidebar a {
+  display: block;
+  color: #ddd;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  background: #0056b3;
+  color: white;
+}
+
+.main {
+  margin-left: 240px;
+  padding: 30px;
+  width: calc(100% - 240px);
+}
+
+.demo-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.demo-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.demo-card h5 {
+  margin-top: 15px;
+}
